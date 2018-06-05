@@ -1,0 +1,18 @@
+---
+# timezone/tasks/main.yml
+
+- name: install tzdata
+  package:
+    name:  tzdata
+    state: present
+    update_cache: yes
+  tags:
+    - timezone
+    - packages
+
+- name: set timezone
+  timezone:
+    name: '{{ timezone_zone }}'
+  tags:
+    - timezone
+    - configuration
