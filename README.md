@@ -1,3 +1,6 @@
+[![Ansible Galaxy](https://img.shields.io/badge/role-likg.timezone-blue.svg?style=flat)](https://galaxy.ansible.com/likg/timezone/)
+[![Build Status](https://travis-ci.org/likg/ansible-role-timezone.svg?branch=master)](https://travis-ci.org/likg/ansible-role-timezone)
+
 # Ansible Role: Timezone
 
 Set system timezone with Ansible [timezone](http://docs.ansible.com/ansible/latest/modules/timezone_module.html) module.
