@@ -22,7 +22,7 @@ None.
     - hosts: servers
       become: yes
       vars:
-        - timezone_zone: 'UTC'
+        - timezone_zone: 'Etc/UTC'
       roles:
         - { role: lik.timezone }
 
