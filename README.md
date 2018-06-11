@@ -24,7 +24,7 @@ None.
       vars:
         - timezone_zone: 'Etc/UTC'
       roles:
-        - { role: lik.timezone }
+        - { role: likg.timezone }
 
 ## License
 
